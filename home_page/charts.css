@@ -86,7 +86,7 @@ li i{
 aside{
     background-image:linear-gradient(to bottom,rgb(110, 205, 236),rgb(127, 164, 177));
     width: 8%;
-    width: 100vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
