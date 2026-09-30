@@ -20,6 +20,7 @@ body h1,h2,h3,h4,h5,h6{
 aside{
     background-image:linear-gradient(to bottom,rgb(110, 205, 236),rgb(127, 164, 177));
     width: 8%;
+    width: 100vh;
     position: fixed;
     top: 0;
     left: 0;
