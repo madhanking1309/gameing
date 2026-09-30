@@ -8,6 +8,15 @@ body{
     overflow-x: hidden;
 }
 
+body h1,h2,h3,h4,h5,h6{
+    font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
 header{
     width: 100%;
     /* background-color: rgb(224, 192, 192); */
@@ -262,6 +271,7 @@ ul h2{
 
 aside{
     width:14%;
+    z-index: 999;
 }
 
 .box video{
@@ -273,6 +283,7 @@ aside{
 .name{
     margin-left:10%;
     margin-top:-130px;
+    z-index: 100;
 }
 
 .like{
@@ -318,6 +329,7 @@ aside{
     align-items:center;
 
     padding:0;
+    z-index: 999;
 }
 
 aside .box{
@@ -354,6 +366,7 @@ aside .box h6{
 .name{
     margin-left:10px;
     margin-top:-80px;
+    z-index: 100;
 }
 
 .name img{

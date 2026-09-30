@@ -3,9 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    /* overflow: hidden; */
+body h1,h2,h3,h4,h5,h6,button{
+    font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
 }
+
 /* sider */
 aside{
     background-image:linear-gradient(to bottom,rgb(110, 205, 236),rgb(127, 164, 177));
@@ -68,6 +74,7 @@ aside{
 }
 .left{
     border-right: 2px solid black ;
+    margin-left: 5px;
     /* background-color: blue; */
     /* margin-top: 200px; */
 }
@@ -120,13 +127,14 @@ aside{
  position: absolute;
  position: fixed;
     width: 100%;
-    margin-left: 62%;
+    margin-left: 60%;
     background-color: yellow;
 }
 
 .right video{
     /* margin-left: 30px; */
     height: 700px;
+    width: 150%;
     z-index: -1;
 }
 

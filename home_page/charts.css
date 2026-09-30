@@ -8,6 +8,15 @@ body{
     overflow-x: hidden;
     scrollbar-width: auto;
 }
+
+body h1,h2,h3,h4,h5,h6{
+    font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
 .container{
     width: 100%;
 }
@@ -46,7 +55,7 @@ ul h2{
     margin-left: 250px;
 }
 li img{
-    margin-left: 280px;
+    margin-left: 350px;
     border-radius: 50%;
     margin-right: 20px;
     z-index: 99;
@@ -164,6 +173,9 @@ main{
     border-radius: 10px;
     /* background-color: red; */
 }
+.box h6{
+     color: rgb(78, 77, 77);
+}
 
 .start .box img{
      width: 200px;
@@ -280,14 +292,29 @@ main{
     margin-left:0;
     margin-top:0;
     padding:15px;
+    padding-right: 30px;
     padding-top:70px;
+    padding-left: 100px;
+    transform: translateX(-70px);
     position:fixed;
-    font-size:22px;
+    font-size:30px;
+}
+.for{
+    margin-left: -20%;
+    background-color: white;
+    /* padding: 50px; */
+}
+.me{
+    width:100%;
+    left:0;
+    top:65px;
+    margin-top: 0%;
 }
 
 .choose{
     padding-top:140px;
-    margin-left:15px;
+    margin-left:-10px;
+    transform: translateX(-50px);
 }
 
 .choose select{
@@ -301,6 +328,7 @@ main{
 
 .start .box{
     min-width:160px;
+    margin-left: 30px;
 }
 
 .start .box img{

@@ -6,6 +6,15 @@
 body{
     overflow-x: hidden;
     scrollbar-width: auto;
+    
+}
+body h1,h2,h3,h4,h5,h6{
+    font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
 }
 .container{
     width: 100%;
@@ -45,7 +54,7 @@ ul h2{
     margin-left: 250px;
 }
 li img{
-    margin-left: 280px;
+    margin-left: 350px;
     border-radius: 50%;
     margin-right: 20px;
     z-index: 99;
@@ -83,6 +92,16 @@ aside{
     z-index: 1;
     padding-top: 20px;
 }
+
+aside h6{
+    
+  font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
 .box a{
     text-decoration: none;
     color: black;
@@ -92,7 +111,7 @@ aside{
     color: black;
 }
 .box2{
-    margin-top: 393px;
+    margin-top: 370%;
     font-size: 20px;
 }
 main{
@@ -112,6 +131,18 @@ main{
     position: fixed;
     z-index: 999;
 }
+.me h6{
+  font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+
+
+
 .me a{
      text-decoration: none;
     color: black;
@@ -136,13 +167,32 @@ main{
     overflow: auto;
     scrollbar-width: none;
     text-align: center;
+    font-size: 20px;
 
 
 }
+.friends h6{
+    font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+.box11{
+    margin-left: 40px;
+}
+
+.box13{
+    width: 250;
+    height: 250;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
 .boxs a{
-        border: 2px solid black;
-        border-radius: 50%;
-        font-size: 90px;
+        /* border: 2px solid black; */
+        /* border-radius: 50%; */
+        font-size: 80px;
         color: black;
 }
 
@@ -235,7 +285,7 @@ main{
 .ava .box{
     width: 200px;
     height: 300px;
-     border-radius: 5px;
+     border-radius: 10px;
     background-color: rgb(172, 169, 169);
 }
 .ava{
