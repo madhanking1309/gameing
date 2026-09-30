@@ -295,8 +295,8 @@ main{
     padding:15px;
     padding-right: 30px;
     padding-top:70px;
-    padding-left: 100px;
-    transform: translateX(-70px);
+    /* padding-left: 100px; */
+    /* transform: translateX(-70px); */
     position:fixed;
     font-size:30px;
 }
