@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    
+    /* z-index: -1; */
+}
+
+.container{
+    /* background-color: red; */
+    position: relative;
+    /* background-color: red; */
+    background-image: url('./images/bg11.png');
+    height: 100%;
+    animation: close 3s ease-in-out 1 ;
+
+}
+@keyframes close{
+    0%{
+        opacity: 0;
+    }
+}
+
+.container a i{
+    font-size: 50px;
+    color: white;
+    margin-left: 2%;
+}
+
+.login{
+    /* background-color: red; */
+    margin-left: 35%;
+}
+
+.login h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 5px;
+    /* padding-top: -10%; */
+}
+
+.login img{
+    margin-top: 10px;
+    transform: translateY(20px);
+}
+
+.pass{
+    /* text-align: center; */
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.pass input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(194, 191, 191);
+    border:none;
+    border-radius: 10px;
+}
+.pass button{
+    margin-top: 30px;
+    padding: 10px 100px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* media query */
+
+/* ==========================
+   Mobile (0px - 480px)
+========================== */
+@media (max-width:480px){
+
+.container{
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+}
+
+.container a i{
+    font-size:35px;
+    margin-left:0;
+}
+
+.login{
+    margin:60px auto;
+    width:100%;
+    text-align:center;
+}
+
+.login h1{
+    font-size:45px;
+    letter-spacing:2px;
+}
+
+.login img{
+    width:60px;
+    height:60px;
+    transform:translateY(10px);
+}
+
+.pass{
+    margin:30px auto;
+}
+
+.pass input{
+    width:90%;
+    height:45px;
+}
+
+.pass button{
+    width:90%;
+    padding:12px;
+    font-size:18px;
+}
+
+.pass h4{
+    margin-left:0 !important;
+    text-align:center;
+}
+}
+
+/* ==========================
+   Large Mobile (481px - 767px)
+========================== */
+@media (min-width:481px) and (max-width:767px){
+
+.login{
+    margin-left:18%;
+    margin-top:60px;
+}
+
+.login h1{
+    font-size:60px;
+}
+
+.login img{
+    width:80px;
+    height:80px;
+}
+
+.pass input{
+    width:350px;
+}
+
+.pass button{
+    width:350px;
+    padding:12px;
+}
+
+.container a i{
+    font-size:40px;
+}
+}
+
+/* ==========================
+   Tablet (768px - 991px)
+========================== */
+@media (min-width:768px) and (max-width:991px){
+
+.login{
+    margin-left:25%;
+    margin-top:60px;
+}
+
+.login h1{
+    font-size:70px;
+}
+
+.pass input{
+    width:380px;
+}
+
+.pass button{
+    width:380px;
+    padding:12px;
+}
+}
+
+/* ==========================
+   Laptop (992px - 1199px)
+========================== */
+@media (min-width:992px) and (max-width:1199px){
+
+.login{
+    margin-left:30%;
+}
+
+.login h1{
+    font-size:75px;
+}
+}
+
+/* ==========================
+   Desktop (1200px - 1399px)
+========================== */
+@media (min-width:1200px) and (max-width:1399px){
+
+.login{
+    margin-left:35%;
+}
+
+.login h1{
+    font-size:80px;
+}
+}
+
+/* ==========================
+   Large Desktop (1400px+)
+========================== */
+@media (min-width:1400px){
+
+.login{
+    margin-left:38%;
+}
+
+.login h1{
+    font-size:90px;
+}
+}

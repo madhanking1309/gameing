@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    /* background-color: rgb(224, 192, 192); */
+    background-color: transparent;
+    /* background-image: url('../images/head.webp'); */
+    /* background-repeat: no-repeat; */
+    position: fixed;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+}
+
+ul h2{
+  font-size: 25px;
+}
+.c1{
+    text-decoration: none;
+    margin-left: 250px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+ul h2{
+    margin-left: 250px;
+}
+li img{
+    margin-left: 280px;
+    border-radius: 50%;
+    margin-right: 20px;
+    z-index: 99;
+}
+
+.t1{
+    text-decoration: none;
+    color:black;
+}
+/* icon size */
+li i{
+    font-size: 25px;
+}
+
+
+
+
+/* sider */
+aside{
+    background-image:linear-gradient(to bottom,rgb(110, 205, 236),rgb(127, 164, 177));
+    width: 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    padding-top: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+.box1{
+    margin-top: 20px;
+    color: black;
+}
+.box2{
+    margin-top: 393px;
+    font-size: 20px;
+}
+
+
+/* main */
+
+.container{
+    width: 100%;
+    /* background-color: red; */
+    margin-left: 8%;
+    margin-top: 30px;
+    /* display: flex; */
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    /* scrollbar-width: auto; */
+    overflow-y: scroll;
+}
+.box{
+    width: 100%;
+    margin-top: 50px;
+     position: relative;
+
+    /* height: 1200px; */
+}
+
+
+.box video{
+    margin-left: 30%;
+    height: 660px;
+    z-index: -1;
+}
+
+.name{
+    /* background-color: yellow; */
+    /* position: absolute; */
+    color: white;
+    margin-top: -200px;
+    margin-left: 30%;
+    z-index: 999;
+}
+.name li{
+    list-style-type: none;
+}
+.name h3{
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+.name img{
+    z-index: 999;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.like{
+    margin-left: 40%;
+    /* margin-top: -20px; */
+}
+
+.like li{
+    margin-top: 15px;
+}
+/* Emojes */
+.rea{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+/* mobile que */
+
+/* ===============================
+   DESKTOP (1200px and above)
+================================*/
+@media (min-width:1200px){
+
+aside{
+    width:8%;
+}
+
+.container{
+    margin-left:8%;
+}
+
+.box video{
+    width:40%;
+    height:660px;
+}
+
+.name{
+    margin-left:35%;
+}
+
+}
+
+
+/* ===============================
+   LAPTOP (992px - 1199px)
+================================*/
+@media (min-width:992px) and (max-width:1199px){
+
+ul h2{
+    margin-left:120px;
+}
+
+.container{
+    margin-left:10%;
+}
+
+aside{
+    width:10%;
+}
+
+.box video{
+    width:55%;
+    height:550px;
+    margin-left:22%;
+}
+
+.name{
+    margin-left:22%;
+}
+
+.like{
+    margin-left:65%;
+}
+
+}
+
+
+/* ===============================
+   TABLET (768px - 991px)
+================================*/
+@media (min-width:768px) and (max-width:991px){
+
+ul h2{
+    margin-left:40px;
+}
+
+.container{
+    margin-left:12%;
+}
+
+aside{
+    width:12%;
+}
+
+.box video{
+    width:70%;
+    height:450px;
+    margin-left:15%;
+}
+
+.name{
+    margin-left:15%;
+}
+
+.like{
+    margin-left:75%;
+}
+
+}
+
+
+/* ===============================
+   NORMAL MOBILE (481px - 767px)
+================================*/
+@media (min-width:481px) and (max-width:767px){
+
+ul h2{
+    margin-left:20px;
+    font-size:22px;
+}
+
+.container{
+    margin-left:15%;
+}
+
+aside{
+    width:14%;
+}
+
+.box video{
+    width:80%;
+    height:350px;
+    margin-left:10%;
+}
+
+.name{
+    margin-left:10%;
+    margin-top:-130px;
+}
+
+.like{
+    margin-left:78%;
+}
+
+}
+
+
+/* ===============================
+   SMALL MOBILE (480px and below)
+================================*/
+@media (max-width:768px){
+
+header{
+    width:100%;
+}
+
+ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+
+ul h2{
+    margin-left:10px;
+    font-size:22px;
+}
+
+/* Sidebar becomes bottom navigation */
+
+aside{
+    position:fixed;
+    bottom:0;
+    left:0;
+    top:auto;
+    width:100%;
+    height:65px;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+    padding:0;
+}
+
+aside .box{
+    margin:0;
+    width:auto;
+}
+
+aside .box a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+aside .box h6{
+    font-size:10px;
+}
+
+.box2{
+    display:none;
+}
+
+.container{
+    margin-left:0;
+    margin-top:70px;
+    padding:10px;
+}
+
+.box video{
+    width:100%;
+    height:auto;
+    margin-left:0;
+}
+
+.name{
+    margin-left:10px;
+    margin-top:-80px;
+}
+
+.name img{
+    width:45px;
+    height:45px;
+}
+
+.name h3{
+    font-size:16px;
+}
+
+.like{
+    margin-left:75%;
+}
+
+.rea{
+    font-size:18px;
+}
+
+body{
+    padding-bottom:80px;
+}
+
+}
